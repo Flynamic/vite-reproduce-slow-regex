@@ -1,0 +1,33 @@
+{
+  "name": "vite-reproduce-slow-regex",
+  "version": "1.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "ant-design-vue": "^1.7.8",
+    "cytoscape": "^3.23.0",
+    "jspdf": "^2.5.1",
+    "mathjs": "^11.3.3",
+    "moment-timezone": "^0.5.37",
+    "vue": "^2.7.7",
+    "vue-pdf-embed": "^1.1.4",
+    "vuex": "^3.6.2",
+    "xlsx": "^0.16.9"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue2": "^2.0.0",
+    "less": "^3.13.1",
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "sass": "^1.48.0",
+    "terser": "^5.15.1",
+    "vite": "^3.2.0",
+    "vite-plugin-antdv1-momentjs-resolver": "git://github.com/carl-jin/vite-plugin-antdv1-momentjs-resolver.git#625731ddab26b141c81bb43f08ac9a915146502f"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

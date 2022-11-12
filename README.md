@@ -51,7 +51,7 @@ and after a very unreasonable time...
 dist/reproduce-slow-regex.umd.cjs   7558.89 KiB / gzip: 1890.25 KiB
 ```
 
-The project that I'm currently transforming had an output that is around 11 MB, and it takes 12 minutes.
+The project that I'm currently switching from Webpack to Vite has an output that is around 11 MB, and it takes 12 minutes.
 
 ## The source of the problem
 

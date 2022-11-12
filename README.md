@@ -32,7 +32,7 @@ Set up a Vue+Vite project with lots of heavy dependencies and build it as a `umd
 
 You should see something like the following output after a very reasonable time:
 
-```bash
+```shell
 vite v3.2.3 building for production...
 transforming (1512) node_modules/lodash/_arraySome.js'isMoment' is not exported by 'node_modules/moment/dist/moment.js'
 Use of eval is strongly discouraged, as it poses security risks and may cause issues with minification
@@ -47,7 +47,7 @@ dist/main.960a87ea.mjs              8801.67 KiB / gzip: 1915.97 KiB
 
 and after a very unreasonable time...
 
-```bash
+```shell
 dist/reproduce-slow-regex.umd.cjs   7558.89 KiB / gzip: 1890.25 KiB
 ```
 
